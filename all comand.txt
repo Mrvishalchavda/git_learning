@@ -1,2 +1,48 @@
 git init GIT_LEARNING    * TO CREAT NEW REPO
 
+git add "all comand.txt"  * to add specif file in stage area
+
+git add -a, or git add .   *to add all untracked file in stageing area
+
+git commit -m "all comand file added"  *commit in local with message "all comand file added"
+
+git status  * to get status of current condition
+
+git remote add origin “URL”  to add specific origin file to remot “URL”
+
+git push origin [branch name]
+
+git clone [URL]
+
+git branch [name-of-the-branch]   *create  branch 
+
+git branch -D [name -of-the-branch]  *deleate branch
+
+git checkout [name-of-the-new-branch] * chenge working branch
+
+git checkout -b [name-of-the-new-branch]  *create and move to new branch
+
+git log, git log -3, git log –graph, git log –graph –pretty=oneline
+
+git stash, git stash -u  save in local directory
+
+git stash pop
+
+git revert [commit id]
+
+git diff
+
+git merge [another-file-name]
+
+git rebase [base]
+
+git fetch
+
+git reset –hard [SOME-COMMIT]
+
+git pull origin master
+
+
+
+
+
